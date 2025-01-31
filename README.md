@@ -8,3 +8,7 @@ Has the correct amount of tabs and spaces Python requires.
 Usage python screen.py [delay in seconds]
 
 Good for doing frequency drift measurements over a long time.
+
+# Pre-requisites
+Image magick if you want to make the files managable, BMPs are a little big.
+

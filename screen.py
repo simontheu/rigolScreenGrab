@@ -56,12 +56,13 @@ with open(time_ms_bmp, "wb") as binary_file:
 	binary_file.write(img)
 	binary_file.close()
 
-#use image magick to convert from .bmp to png
 
-call = "magick " + time_ms_bmp + " " + time_ms_png
-subprocess.call(call, shell=True)
-call = "del *.bmp"
-subprocess.call(call, shell=True)
+#optional use image magick to convert from .bmp to png
+#call = "magick " + time_ms_bmp + " " + time_ms_png
+#subprocess.call(call, shell=True)
+#call = "del *.bmp"
+#subprocess.call(call, shell=True)
+
 sock.close()
 
 #sleep for delay seconds
